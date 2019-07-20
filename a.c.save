@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define len 100;
+
+void hare(){
+     int i = 0;
+     while1)printf("\n hare \n");	
+}
+
+void turtle(){
+	while(1)printf("\nrabbit\n");
+}
+
+void god(){
+	while(1)printf("\ngod\n");
+}
+
+void repostion(){
+	while(1)
+	printf("\nreposition\n");
+}
+
+
+int main(){
+	    int n1 = fork();  
+    	    int n2 = fork(); 
+	    if (n1 > 0 && n2 > 0) { 
+		hare();
+	    } 
+	    else if (n1 == 0 && n2 > 0) 
+	    { 
+		turtle(); 
+	    } 
+	    else if (n1 > 0 && n2 == 0) 
+	    { 
+		god();
+	    } 
+	    else { 
+		repostion();
+	    } 
+}
